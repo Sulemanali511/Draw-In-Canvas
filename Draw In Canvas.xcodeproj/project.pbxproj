@@ -12,6 +12,9 @@
 		4E964EB522674EFF002C0566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E964EB322674EFF002C0566 /* Main.storyboard */; };
 		4E964EB722674F00002C0566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E964EB622674F00002C0566 /* Assets.xcassets */; };
 		4E964EBA22674F00002C0566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E964EB822674F00002C0566 /* LaunchScreen.storyboard */; };
+		4E969E2722688DB4008AA7D2 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E969E2622688DB4008AA7D2 /* Line.swift */; };
+		4E96AC302268772C005E086F /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E96AC2F2268772C005E086F /* Canvas.swift */; };
+		4E96AC3222687C9A005E086F /* ExtensionUivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E96AC3122687C9A005E086F /* ExtensionUivew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4E964EB622674F00002C0566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E964EB922674F00002C0566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E964EBB22674F00002C0566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E969E2622688DB4008AA7D2 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		4E96AC2F2268772C005E086F /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		4E96AC3122687C9A005E086F /* ExtensionUivew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUivew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,40 @@
 			isa = PBXGroup;
 			children = (
 				4E964EAF22674EFF002C0566 /* AppDelegate.swift */,
-				4E964EB122674EFF002C0566 /* ViewController.swift */,
+				4E96AC2D226875E1005E086F /* model */,
+				4E96AC2E22687719005E086F /* view */,
+				4E96AC2C226875D4005E086F /* controller */,
 				4E964EB322674EFF002C0566 /* Main.storyboard */,
 				4E964EB622674F00002C0566 /* Assets.xcassets */,
 				4E964EB822674F00002C0566 /* LaunchScreen.storyboard */,
 				4E964EBB22674F00002C0566 /* Info.plist */,
+				4E96AC3122687C9A005E086F /* ExtensionUivew.swift */,
 			);
 			path = "Draw In Canvas";
+			sourceTree = "<group>";
+		};
+		4E96AC2C226875D4005E086F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E964EB122674EFF002C0566 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E96AC2D226875E1005E086F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4E969E2622688DB4008AA7D2 /* Line.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E96AC2E22687719005E086F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E96AC2F2268772C005E086F /* Canvas.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E96AC3222687C9A005E086F /* ExtensionUivew.swift in Sources */,
 				4E964EB222674EFF002C0566 /* ViewController.swift in Sources */,
 				4E964EB022674EFF002C0566 /* AppDelegate.swift in Sources */,
+				4E96AC302268772C005E086F /* Canvas.swift in Sources */,
+				4E969E2722688DB4008AA7D2 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
