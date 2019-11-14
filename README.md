@@ -1,7 +1,7 @@
 # Draw-In-Canvas
 Simple app that we can use it for draw any thing in screen with specified colors and line width.
 
-demo video.
+# short demo video.
 
 ![Alt Text](https://j.gifs.com/k8MMJX.gif)
 
